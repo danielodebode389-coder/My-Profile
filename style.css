@@ -1,9 +1,10 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: blue;
     color: whitesmoke;
     width: 100%;
+    font-weight: bolder;
 }
 
 /* HEADER */
@@ -117,7 +118,7 @@ section {
     font-family: 'Times New Roman', Times, serif;
 }
 .gallery{
-    top: 170px;
-    margin-left: 800px;
+    top: 190px;
+    margin-left: 700px;
     position: absolute;
 }
