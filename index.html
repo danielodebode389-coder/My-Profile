@@ -6,71 +6,28 @@
     <title>My portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   
     <header>
         <h1>My portfolio</h1>
         <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="#blog">Blog</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <!--HERO SECTION-->
     <section id="hero">
-        <h2>Hello, I'm <span class = "name">Odebode Daniel</span></h2>
-        <p>A Passionate Web Developer</p>
+        <h2><span class = "name">Odebode Daniel</span></h2>
+       <h3>A Passionate Web Developer</h3> <p><br> I build modern, responsive websites that are both beautiful and functional.<br> From clean designs to smooth user experiences, I turn ideas into digital reality.<br>Lets create somthing together </p>
         <button id="hireBtn">Hire Me</button>
     </section>
-
-    <!--ABOUT SECTION-->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a frontend web developer who loves building clean and responsive websites. I enjoy working with JavaScript, React, Node.js and I am constantly improving my skills.</p>
-    </section>
-
-    <!--SKILLS SECTION-->
-    <section id="skills">
-        <h2>My skills</h2>
-        <ul>
-            <li>HTML $ CSS</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-        </ul>
-    </section>
-
-    <!--PROJECT SECTION-->
-    <section id="Projects">
-        <h2>Projects</h2>
-        <div class="project-box">
-            <h3>Portfolio Website</h3>
-            <p>A beautiful responsive portfolio website built using HTML, CSS and JavaScript</p>
-        </div>
-    
-    <div class="project-box">
-        <h3>Form Validator</h3>
-        <p>A form validation project using DOM manipulation and JavaScript</p>
+    <div class="gallery">
+        <img src="IMG-20251127-WA0198_1.jpg" style="border-radius: 1000px;">
     </div>
-    </section>
-
-    <!--CONTACT SECTION-->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contactForm">
-            <input type="text" id="contactName" placeholder="Your Name">
-            <input type="email" id="contactEmail" placeholder="Your Email">
-            <textarea id="message" placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-
-        <p id="feedback"></p>
-    </section>
-
     <script src="script.js"></script>
 </body>
 </html>
