@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: blue;
     color: whitesmoke;
     width: 100%;
@@ -112,13 +112,17 @@ section {
     font-size: 10px;
     text-align: center;
     color: black;
+    border: 3px solid white;
+    box-shadow: 0 0 15px white, 0 0 30px white;
+    border-radius: 10px;
+    padding: 10px;
 }
 .skill-box li{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 .gallery{
-    top: 190px;
+    top: 10px;
     margin-left: 700px;
     position: absolute;
 }
